@@ -70,16 +70,10 @@ Test this function by hand in the console to get it working, and when you think 
 // TODO: Write your code here
 var testArray = [2,3,4]; //eslint-disable-line
 function sumArray(testArray){ //eslint-disable-line
-  var zeroPlace = testArray[0];
-  var firstPlace = testArray[1];
-  var secondPlace = testArray[2];
-  var sumOfThree = sum(sum(zeroPlace, firstPlace)[0], secondPlace)[0];
-  var sumString = zeroPlace + ',' + firstPlace + ',' + secondPlace + ' was passed in as an array of numbers, and ' + sumOfThree + ' is their sum.';
-  return [sumOfThree, sumString];
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
-testSumArray(testArray);
+//testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -92,15 +86,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-    var zeroSpace = testArray[0];
-    var firstSpace = testArray[1];
-    var secondSpace = testArray[2];
-    var prodOfThree = multiply(multiply(zeroSpace, firstSpace)[0], secondSpace)[0];
-    var prodString = 'The numbers ' + zeroSpace + ',' + firstSpace + ',' + secondSpace + ' have a product of ' + prodOfThree + '.';
-    return [prodOfThree, prodString];
+
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-testMultiplyArray(2,3,4);
+//testMultiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
