@@ -26,10 +26,10 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // TODO: Write your code here
-function multiply(a,b){ //eslint-disable-line
-  var multResult = a * b;
-  var multOutput = 'The product of ' + a + ' and ' + b + ' is ' + multResult + '.';
-  return [multResult, multOutput];
+  function multiply(a,b){ //eslint-disable-line
+    var multResult = a * b;
+    var multOutput = 'The product of ' + a + ' and ' + b + ' is ' + multResult + '.';
+    return [multResult, multOutput];
 }
 
 // TODO: Here is the test for multiply(); uncomment it to run it
@@ -47,15 +47,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // TODO: Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
-  var sumOfThree = sum(sum(a, b)[0], c)[0];
-  var prodOfThree = multiply(multiply(a, b)[0], c)[0];
-  var sumMess = a + ' and ' + b + ' and ' + c + ' sum to ' + sumOfThree + '.';
-  var prodMess = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + prodOfThree + '.';
-  return [sumOfThree, prodOfThree, sumMess, prodMess];
+
 }
 
 // TODO: Here is the test for sumAndMultiply(); uncomment it to run it
-testSumAndMultiply(4,7,5);
+// testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -66,14 +62,21 @@ Write a function called sumArray() that takes in an array of numbers as its sing
 IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To do addition, use your sum() function that you've already created. You're going to have to be resourceful to figure out how to do this.
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
-
 // TODO: Write your code here
 var testArray = [2,3,4]; //eslint-disable-line
+
 function sumArray(testArray){ //eslint-disable-line
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
 //testSumArray(testArray);
+
+}
+
+// TODO: Here is the test for sumArray(); uncomment it to run it
+
+// testSumArray(testArray);
+
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
