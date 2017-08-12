@@ -89,6 +89,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
+    var zeroSpacee = testArray[0];
+    var firstSpace = testArray[1];
+    var secondSpace = testArray[2];
+    var prodOfThree = multiply(multiply(zeroSpacee, firstSpace)[0], secondSpace)[0];
+    var prodString = 'The numbers ' + zeroSpacee + ',' + firstSpace + ',' + secondSpace + ' have a product of ' + prodOfThree + '.';
+    return [prodOfThree, prodString];
+
 
 }
 
